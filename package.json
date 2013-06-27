@@ -1,0 +1,17 @@
+{
+  "name": "shift-api",
+  "version": "0.0.0",
+  "description": "Wrapper for shift api (shift.com)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "shift",
+    "api",
+    "wrapper"
+  ],
+  "author": "Tim Atkinson",
+  "license": "BSD"
+}
