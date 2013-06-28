@@ -13,5 +13,8 @@
     "wrapper"
   ],
   "author": "Tim Atkinson",
-  "license": "BSD"
+  "license": "BSD",
+  "dependencies": {
+    "request": "~2.21.0"
+  }
 }
