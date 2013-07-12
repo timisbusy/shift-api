@@ -12,11 +12,13 @@ This package has not been tested very well yet. Send over any issues you find an
 
 ## use
 
-> var Shift = require('./index'); 
+> var Shift = require('./index');
+> 
 > var creds = {
 >     APP_ID: "YOUR_APP_ID"
 >   , APP_SECRET: "YOUR_APP_SECRET"
 > };
+>
 > var shift = new Shift(creds);
 >
 > var newMessage = {
