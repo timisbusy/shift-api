@@ -29,8 +29,11 @@ This package has not been tested very well yet. Send over any issues you find an
 > };
 >
 > shift.messages.send(newMessage, function (err, res) {
+>
 >   if (err) { throw err; }
+>
 >   console.log(res);
+>
 > });
 
 ## available calls
