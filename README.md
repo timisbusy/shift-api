@@ -8,33 +8,33 @@ This package has not been tested very well yet. Send over any issues you find an
 
 ## install
 
-> npm install shift-api
+    npm install shift-api
 
 ## use
 
-> var Shift = require('./index');
-> 
-> var creds = {
->     APP_ID: "YOUR_APP_ID"
->   , APP_SECRET: "YOUR_APP_SECRET"
-> };
->
-> var shift = new Shift(creds);
->
-> var newMessage = {
->   text: "Heya, fellers!",
->   "addressed_teams": [
->    "TEAM_ID_HERE"
->  ]
-> };
->
-> shift.messages.send(newMessage, function (err, res) {
->
->   if (err) { throw err; }
->
->   console.log(res);
->
-> });
+    var Shift = require('./index');
+    
+    var creds = {
+        APP_ID: "YOUR_APP_ID"
+      , APP_SECRET: "YOUR_APP_SECRET"
+    };
+
+    var shift = new Shift(creds);
+
+    var newMessage = {
+      text: "Heya, fellers!",
+      "addressed_teams": [
+       "TEAM_ID_HERE"
+     ]
+    };
+
+    shift.messages.send(newMessage, function (err, res) {
+
+      if (err) { throw err; }
+
+      console.log(res);
+      
+    });
 
 ## available calls
 
